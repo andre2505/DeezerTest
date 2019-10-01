@@ -1,7 +1,7 @@
 # DeezerTest
 Test pour Deezer
 
-Application construite avec les architectures components, utilisant ainsi un architecture MVVM à la façon Google.
+Application construite avec les architectures components, utilisant ainsi une architecture MVVM à la façon Google.
 
 Libraries utilisées :
 
