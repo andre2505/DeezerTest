@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_camera"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:title="@null"
+        android:background="@color/colorEndGradientDetail"
+        app:navigationIcon="@drawable/ic_left_arrow"
+>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="end"
+                  android:paddingEnd="10dp">
+
+        <TextView
+                android:id="@+id/toolbar_artist_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Artist"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center"
+        />
+
+        <ImageView
+                android:id="@+id/toolbar_artist_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/drawable_circle_profile_white"/>
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

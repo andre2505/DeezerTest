@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Deezer</string>
+
+    <string name="title_Album">Albums</string>
+
+    <!-- Detail-->
+    <string name="detail_download">Download</string>
+    <string name="detail_shuffle">shuffle playback</string>
+    <string name="detail_no_tracks">No tracks</string>
+    <string name="detail_duration">duration\n%1$s</string>
+
+    <!-- Bottom Sheet -->
+    <string name="bottom_add_favorites">Add to favorites</string>
+    <string name="bottom_donwload">Download</string>
+    <string name="bottom_show_lyrics">Show lyrics</string>
+    <string name="bottom_share">Share</string>
+    <string name="bottom_artist_page">see the artist page</string>
+</resources>
